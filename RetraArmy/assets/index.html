@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="img/logo-bg.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Retra Army</title>
+</head>
+<body>
+    <header>
+        <div class="title__container">
+            <a href="index.html">
+                <img src="img/logo-bg.png" alt="Logo-retra">
+                <h2>Retra Armry</h2>
+            </a>
+        </div>
+        <nav class="social__media">
+            <a href="https://www.instagram.com/retra_army_/" target="_blank">
+                <img src="https://img.icons8.com/color/48/null/instagram-new--v1.png" alt="instagram-enlace" class="img__social"/>
+            </a>
+            <a href="https://discord.gg/Du5NrRw2Ag" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/null/discord.png" alt="discord-enlace" class="img__social"/>
+            </a>
+            <div class="register__container">
+                <div class="login">
+                    <a href="src/register.html">
+                        <p>Iniciar Sesión</p>
+                    </a>
+                </div>
+                <div class="dropdown__arrow">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Sub Header start -->
+    <nav class="sub__header">
+        <div class="subHeader__container">
+            <a href="src/events.html">
+                <p>Eventos</p>
+            </a>
+        </div>
+        <div class="subHeader__container">
+            <a href="src/giveaway.html">
+                <p>Sorteo</p>
+            </a>
+        </div>
+        <div class="subHeader__container">
+            <a href="https://discords.com/servers/retraarmy" target="_blank">
+                <p>Bumps</p>
+            </a>
+        </div>
+    </nav>
+    <!-- Sub Header end -->
+    <main>
+        <div class="slider__container">
+            <div class="slider">
+                <div class="main__container">
+                    <h2 style="font-size: 30px;">RETRA ARMY ES PARA TODOS</h2>
+                    <p>Esta es nuestra comunidad, cada uno de nosotros hace que Retra Army sea lo que es. ¡Así que adelante y diviértete! <br><span class="texto__centrado">Conecerás a pesonas increíbles e inspiradoras de todo el mundo. Siempre que respete las normas de Discord</span></p>
+                    <a href="https://discord.gg/Du5NrRw2Ag" class="visit__discord" target="_blank">
+                        <button>Visitar Discord</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="info__container">
+            <div class="general__info">
+                <div class="gmail__container">
+                    <a href="https://www.google.com/intl/es/gmail/about/" target="_blank" class="link">retraarmy@gmail.com</a>
+                </div>
+                <div class="adrress">
+                    <p>Avenida Jose Ortega y Gaset 21 1ª3 <br>Málaga, 29006 Málaga ES</p>
+                </div>
+                <a href="https://discord.gg/Du5NrRw2Ag" class="visit__discord">
+                    <button>Visitar Discord</button>
+                </a>
+            </div>
+            <div class="comunidad__info">
+                <h3>Comunidad</h3>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg-AcARnNnasBj5YbIppn-65a9Vh2pwOxPYDqaBsB30nfe5w/viewform" target="_blank">Voluntarios</a>      <!-- Oposiciones Para Staff -->
+                <a href="src/shop.html">Tienda</a>
+            </div>
+            <div class="recursos__info">
+                <h3>Recursos</h3>
+                <a href="src/rules.html">Normas</a>
+                <a href="src/terminos.html">Terminos</a>
+                <a href="src/terminos.html">Privacidad</a>
+            </div>
+        </div>
+        <div class="copyright__container">
+            <p class="themes">Tema</p>
+            <div class="dropdown__arrow--secondary">
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </div>
+            <div class="copyright">
+                <p>Marca Registrada ® 2022 Retra Army</p>
+                <p>Powered by Retra Devs Comunity</p>
+            </div>
+        </div>
+    </footer>
+    <!-- cookies absolute -->
+    <div class="cookies__container">
+        <h3>¡Hola!</h3>
+        <div class="cookies__title">
+            <h2>Mira somos las Cookies</h2>
+            <img src="img/logo-bg.png" alt="logo-retra">
+        </div>
+        <p>Esperamos para estar seguros de que este sitio web <br>le interesa antes de navegar, pero tenemos que saber <br>si podemos ser sus acompañantes durente su visita. <br><br>Siempre respetamos su privacidad, así es como lo hacemos.</p>
+        <div class="cookies__options">
+            <button class="first__option" onclick="cerrar()">No, gracias</button>
+            <button class="second__option" onclick="cerrar()">¡OK!</button>
+        </div>
+    </div>
+    <button class="cookies__button" onclick="desplazamiento()">
+        <img src="https://img.icons8.com/office/16/null/cookies.png" alt="cookies"/>
+        <p>Cookies</p>
+    </button>
+<script src="js/cookies.js"></script>
+</body>
+</html>
